@@ -1,0 +1,44 @@
+--Inserting Image
+
+mongofiles --db Images put image4.JPG --local "C:\Users\salma\Desktop\image\image4.JPG"
+
+mongofiles --db Images put image1.JPG --local "C:\Users\salma\Desktop\image\image1.JPG"
+
+mongofiles --db Images put image3.JPG --local "C:\Users\salma\Desktop\image\image3.JPG"
+
+mongofiles --db Images put image6.JPG --local "C:\Users\salma\Desktop\image\image6.JPG"
+
+mongofiles --db Images put image7.JPG --local "C:\Users\salma\Desktop\image\image7.JPG"
+
+mongofiles --db Images put image8.JPG --local "C:\Users\salma\Desktop\image\image8.JPG"
+
+mongofiles --db Images put image9.JPG --local "C:\Users\salma\Desktop\image\image9.JPG"
+
+mongofiles --db Images put image11.JPG --local "C:\Users\salma\Desktop\image\image11.JPG"
+
+
+
+--inserting images & connecting to Restaurants collection of Trip Advisor database
+
+
+1)db.Restaurants.update({"UniqId":"b8814927762e46672566394191ec4d7a"},{$set:{ObjectId:ObjectId("5a111206355b9d3f6c7a762c")}},{ upsert: true });
+
+
+2)db.Restaurants.update({"UniqId":"02385c86a8e3c9b161f829b3a3a04c47"},{$set:{ObjectId:ObjectId("5a11143b355b9d3594dceefa")}},{ upsert: true });
+
+
+3)db.Restaurants.update({"UniqId":"eaf7e86647ccfb0d63ef618d56b0c918"},{$set:{ObjectId:ObjectId("5a1111f9355b9d26c0ffe110")}},{ upsert: true });
+
+
+4)db.Restaurants.update({"UniqId":"7c72a9af7b5d103f260ee2520f013cb9"},{$set:{ObjectId:ObjectId("5a111469355b9d0688fd9b98")}},{ upsert: true });
+
+
+5)db.Restaurants.update({"UniqId":"4dd7ae270af71bd55f26f98f540315bf"},{$set:{ObjectId:ObjectId("5a111444355b9d2bf41ffa1c")}},{ upsert: true });
+
+
+6)db.Restaurants.update({"UniqId":"c332b59a4a54c690f66eec4033db46a7"},{$set:{ObjectId:ObjectId("5a11144d355b9d2e10442ac4")}},{ upsert: true });
+
+
+7)db.Restaurants.update({"UniqId":"f320c2b7d3fecddb79f9adcab55ca573"},{$set:{ObjectId:ObjectId("5a111455355b9d21a8aafe37")}},{ upsert: true });
+
+8)db.Restaurants.update({"UniqId":"1b8aa68e2671671ca10f29709ff72b79"},{$set:{ObjectId:ObjectId("5a11145e355b9d17549f8ee1")}},{ upsert: true });

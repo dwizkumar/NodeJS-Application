@@ -1,0 +1,19 @@
+Import command
+
+mongoimport --db TripAdvisor --collection Restaurants --type csv --file "E:\IST Dcouments\Knowledge Rep Technloglogies-610\Projects\MongoProject\ImportantFiles\Imported CSV Files\tripadvisor_in-restaurant_sample.csv" --headerline
+
+
+***************************************
+Additional Commands
+
+show dbs
+use TripAdvisor                        --- to create and use TripAdvisor database
+show collections
+db.Restaurants.findOne()
+db.Restaurants.drop();                 --- to drop collection 
+db.dropDatabase();                     --- to drop database
+db.Restaurants.getIndexes()
+
+
+mongo ds111476.mlab.com:11476/mongo_project -u root -p student                  ----For Terminal
+mongodb://root:student@ds111476.mlab.com:11476/mongo_project                    ----For Connection
